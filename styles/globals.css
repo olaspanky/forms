@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'lora';
+    src: url('../public/fonts/Lora-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
