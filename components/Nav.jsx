@@ -5,7 +5,7 @@ import { close, logo, menu } from '../public/assets';
 import{ navLinks, navLinks2 } from '../constants';
 import Link from 'next/link';
 import signup from '@/pages/signup';
-import { FaUserFriends } from 'react-icons/fa';
+import { FaLaravel, FaUserFriends } from 'react-icons/fa';
 
 
 
@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='bg-white'>
     <nav className=' w-full font-abc font-semibold px-2 flex py-5 justify-around items-center bg-[#FFFFFF]'>
-      <Image src={logo} alt= "" className='w-[4em] object-contain' />
+      <FaLaravel size={50} color='blue' className='w-[4em] object-contain' />
 
       <ul className='list-none lg:flex hidden justify-between gap-10'>
           {navLinks.map((nav, index)=> (
@@ -120,7 +120,8 @@ const Navbar = () => {
 
 
         <div className='col-span-1 text-center justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
+        <div className='flex justify-center align-center p-4'>
+        <FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 
