@@ -5,7 +5,7 @@ import Accountform from "./Accountform"
 import { useState } from "react"
 import Education from "./Education"
 import Secondaryedu from "./Secondaryedu"
-import Diploma from "./diploma"
+import Diploma from "./Diploma"
 
 
 

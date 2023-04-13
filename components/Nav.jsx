@@ -5,6 +5,7 @@ import { close, logo, menu } from '../public/assets';
 import{ navLinks, navLinks2 } from '../constants';
 import Link from 'next/link';
 import signup from '@/pages/signup';
+import { FaUserFriends } from 'react-icons/fa';
 
 
 
@@ -35,8 +36,7 @@ const Navbar = () => {
         
        
         <button className=' text-[18px] p-1 rounded bg-blue-600'>
-        <Link href="signup"> signup</Link>
-              
+        <Link href="signup">Job seeker signup</Link>     
         </button>
         <button className=' text-[18px] p-1 rounded bg-red-600'>
         <Link href="login"> login</Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
     </nav>
 
     <div className={`${toggle ? 'flex' : 'hidden' } 
-    p-6 align-center justify-center`}>
+    p-6 align-center justify-center lg:hidden`}>
 
     
         <div className='w-full'>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
     <div className='flex justify-center align-center p-2  '>
     <div className=' flex w-[60%] gap-2'>
-        <button className='bg-blue-800 px-5 py-1'>Main Menu</button>
+        <button className='bg-blue-800 px-5 py-1'><Link href='/'>main menu</Link></button>
         <button className='bg-blue-300 px-5 py-1'>Main Menu</button>
     
     </div>
@@ -77,12 +77,12 @@ const Navbar = () => {
         <div className='flex flex-1 justify-between '>
 
         <div className='flex flex-col justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><Image src={menu}/></div>
+        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 
         <div className='flex flex-col justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><Image src={menu}/></div>
+        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 
@@ -97,35 +97,35 @@ const Navbar = () => {
         <div className='grid grid-cols-3 gap-3 justify-between '>
 
         <div className='col-span-1 text-center justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><Image src={menu}/></div>
+        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 
         <div className='col-span-1 text-center justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><Image src={menu}/></div>
+        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 
 
         
         <div className='col-span-1 text-center justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><Image src={menu}/></div>
+        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 
         <div className='col-span-1 text-center justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><Image src={menu}/></div>
+        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 
 
         <div className='col-span-1 text-center justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><Image src={menu}/></div>
+        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 
         <div className='col-span-1 text-center justify-center align-item'>
-        <div className='flex justify-center align-center p-4'><Image src={menu}/></div>
+        <div className='flex justify-center align-center p-4'><FaUserFriends size={50} color='blue'/></div>
         <h2 className='text-black'>Job Seeker Login</h2>
         </div>
 

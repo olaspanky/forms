@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { useState } from 'react'
 
@@ -34,7 +35,7 @@ const signup = () => {
         </div>
 
 
-        <button className='py-2 px-4 text-blue-900 bg-white rounded shadow-lg'> Sign In</button>
+        <button className='py-2 px-4 text-blue-900 bg-white rounded shadow-lg'><Link href="form"> signup </Link></button>
         
 
         <div className='py-10'></div>
