@@ -6,7 +6,7 @@ const Footer = () => {
       <footer>
         <div className=' lg:mx-20 font-lora grid grid-cols-1 lg:grid-cols-6 lg:gap-10'>
         <div className='col-span-1  border border-t-2 lg:border-0'>
-        <div><h1 className="text-[30px] font-bold p-2">By Location</h1></div>
+        <div><h1 className="text-[14px] lg:text-[30px] font-bold p-2">By Location</h1></div>
         <div><ul>
         <li>Cyprus</li>
         <li>Illinois</li>
@@ -16,7 +16,7 @@ const Footer = () => {
         </ul></div>
         </div>
         <div className='col-span-1  border border-t-2 lg:border-0'>
-        <div><h1 className="text-[30px] font-bold p-2">By Skills</h1></div>
+        <div><h1 className="text-[14px] lg:text-[30px] font-bold p-2">By Skills</h1></div>
         <div><ul>
         <li>Phython</li>
         <li>Javascript</li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </ul></div>
         </div>
         <div className='col-span-1  border border-t-2 lg:border-0'>
-        <div><h1 className="text-[30px] font-bold p-2">By Company</h1></div>
+        <div><h1 className="text-[14px] lg:text-[30px] font-bold p-2">By Company</h1></div>
         <div><ul>
         <li>Infosys</li>
         <li>Amazon</li>
@@ -52,7 +52,7 @@ const Footer = () => {
         <li>Hardware</li>
         </ul></div></div>
         <div className='col-span-1  border border-t-2 lg:border-0'>
-        <div><h1 className="text-[30px] font-bold p-2">Quuick Links </h1></div>
+        <div><h1 className="text-[14px] lg:text-[30px] font-bold p-2">Quuick Links </h1></div>
         <div><ul>
         <li>Phython</li>
         <li>Javascript</li>

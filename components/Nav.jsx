@@ -18,7 +18,9 @@ const Navbar = () => {
   return (
     <div className='bg-white'>
     <nav className=' w-full font-abc font-semibold px-2 flex py-5 justify-around items-center bg-[#FFFFFF]'>
-      <FaLaravel size={50} color='blue' className='w-[4em] object-contain' />
+
+    <Link href="/">      <FaLaravel size={50} color='blue' className='w-[4em] object-contain' />
+    </Link>
 
       <ul className='list-none lg:flex hidden justify-between gap-10'>
           {navLinks.map((nav, index)=> (
@@ -62,8 +64,8 @@ const Navbar = () => {
 
     <div className='flex justify-center align-center p-2  '>
     <div className=' flex w-[60%] gap-2'>
-        <button className='bg-blue-800 px-5 py-1'><Link href='/'>main menu</Link></button>
-        <button className='bg-blue-300 px-5 py-1'>Main Menu</button>
+        <button className='bg-blue-800 px-5 py-1'><Link href='signup'>Job seeker SignUp</Link></button>
+        <button className='bg-blue-300 px-5 py-1'><Link href="login">Login</Link></button>
     
     </div>
         

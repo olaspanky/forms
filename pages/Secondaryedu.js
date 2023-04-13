@@ -8,62 +8,61 @@ secondaryeducationfailed,secondaryeducationpassed,secondaryeducationyear,
 technicaluniversity,technicalqualification,technicalduration,technicallevel}) => {
 
   return (
-    <div className='text-lora p-8 bg-gradient-to-r from-rose-100 to-teal-100'>
+    <div className='text-lora lg:p-8 bg-gradient-to-r from-rose-100 to-teal-100 object-contain overflow-hidden'>
 
-    <FormWrapper title="OTHER SECONDARY EDUCATION">
+    <div className='text-center'><h1 className='font-bold'>OTHER EDUCATIONAL DETAILS</h1></div>
 
-    <label>Certificate</label>
-    <input  className='rounded-md border border-none outline-none' autoFocus required type="text" value={secondarycertificate}
-    onChange={e => updateField({secondarycertificate:e.target.value})}/>
-    <label>Examining Body</label>
-    <input  className='rounded-md border border-none outline-none' autoFocus required type="text" value={secondaryexambody}
-    onChange={e => updateField({secondaryexambody:e.target.value})}/>
-    <label>Country</label>
-    <input  className='rounded-md border border-none outline-none' autoFocus required type="text" value={secondaryeducountry}
-    onChange={e => updateField({secondaryeducountry:e.target.value})}/>
-    <label>Year</label>
-    <input  className='rounded-md border border-none outline-none' autoFocus required type="date" value={secondaryeducationyear}
-    onChange={e => updateField({secondaryeducationyear:e.target.value})}/>
-    <div className='flex'>
-    <div>
-    <label>Passed</label>
-    <input  className='rounded-md border border-none outline-none' type='checkbox' value={secondaryeducationpassed} 
-    onChange={e => updateField({secondaryeducationpassed:e.target.value})}/>
+
+    <div className="p-3" >
+    <div className="px-12 pb-10">
+
+       <div className="w-full mb-2">
+       
+
+          <div className="flex justify-center">
+             <input type='text' placeholder="CERTIFICATE"
+                className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                autoFocus required value={secondarycertificate}
+                onChange={e => updateField({secondarycertificate:e.target.value})} />
+          </div>
+       </div>
+
+
+       
+       <div className="w-full mb-2">
+          <div className="flex justify-center">
+             <input type='text' placeholder="EXAMINING BODY"
+                className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                autoFocus required value={secondaryexambody}
+                onChange={e => updateField({secondaryexambody:e.target.value})} />
+          </div>
+       </div>
+
+
+       
+       <div className="w-full mb-2">
+          <div className="flex justify-center">
+             <input type='text' placeholder="COUNTRY"
+                className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                autoFocus required value={secondaryeducountry}
+                onChange={e => updateField({secondaryeducountry:e.target.value})} />
+          </div>
+       </div>
+
+
+       
+       <div className="w-full mb-2">
+          <div className="flex justify-center">
+             <input type='text' placeholder="YEAR"
+                className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                autoFocus required value={secondaryeducationyear}
+                onChange={e => updateField({secondaryeducationyear:e.target.value})} />
+          </div>
+       </div>
+    </div>
     
-    </div>
-    <label>Failed</label>
-    <input  className='rounded-md border border-none outline-none' type='checkbox' value={secondaryeducationfailed} 
-    onChange={e => updateField({secondaryeducationfailed:e.target.value})}/>
+ </div>
 
-    </div>
-
-    <br/>
-    <h1>TECHNICAL AND VOCATIONAL EDUCATION</h1>
-    <label>University/ Awarding Body</label>
-    <input  className='rounded-md border border-none outline-none' autoFocus required type="text" value={technicaluniversity}
-    onChange={e => updateField({technicaluniversity:e.target.value})}/>
-    <label>Qualification Obtained</label>
-    <input  className='rounded-md border border-none outline-none' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>
-    <label>Duration</label>
-    <input  className='rounded-md border border-none outline-none' autoFocus required type="date" value={technicalduration}
-    onChange={e => updateField({technicalduration:e.target.value})}/>
-    <label>CLASS/LEVEL</label>
-    <input  className='rounded-md border border-none outline-none' autoFocus required type="date" value={technicallevel}
-    onChange={e => updateField({technicallevel:e.target.value})}/>
-    
-    <div className='flex'>
-    <div>
-    <labe>Passed</labe>
-    <input  className='rounded-md border border-none outline-none' type='checkbox' ></input>
-    </div>
-    <labe>Failed</labe>
-    <input  className='rounded-md border border-none outline-none' type='checkbox' ></input>
-    </div>
-
-
-   
-    </FormWrapper>
     </div>
   )
 }

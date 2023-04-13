@@ -16,14 +16,14 @@ updateField,
 }) => {
 
   return (
-    <div className='text-lora p-8 bg-gradient-to-r from-rose-100 to-teal-100'>
+    <div className='text-lora p-3 lg:p-8 bg-gradient-to-r from-rose-100 to-teal-100 object-contain overflow-hidden'>
 
-    <FormWrapper title="OTHER SECONDARY EDUCATION">
 
     <h1>DIPLOMA</h1>
 
 
-    <div className='flex gap-5'>
+    <div className='lg:flex gap-5'>
+
     <div className='flex gap-2'>
     <label>Diploma</label>
     <input autoFocus type="checkbox" value={diploma}
@@ -67,42 +67,141 @@ updateField,
     </div>
    
     </div>
-    <label>University/ Awarding body</label>
-    <input className='rounded-md border border-none outline-none' autoFocus required type="text" value={diplomauni}
-    onChange={e => updateField({diplomauni:e.target.value})}/>
-    <label>Qualification Obatained</label>
-    <input className='rounded-md border border-none outline-none' autoFocus required type="text" value={diplomaqualification}
-    onChange={e => updateField({diplomaqualification:e.target.value})}/>
-    <label>Duration</label>
-    <input className='rounded-md border border-none outline-none' autoFocus required type="date" value={diplomaduration}
-    onChange={e => updateField({diplomaduration:e.target.value})}/>
-    <label>Class/Level/Duration</label>
-    <input className='rounded-md border border-none outline-none' autoFocus required type="text" value={diplomalevel}
-    onChange={e => updateField({diplomalevel:e.target.value})}/>
    
+
+    <div className='text-lora lg:p-8 bg-gradient-to-r from-rose-100 to-teal-100 object-contain overflow-hidden'>
+
+    <div className='text-center'><h1 className='font-bold'>DIPLOMA</h1></div>
+   
+
+    <div className="p-3" >
+      <div className="px-12 pb-10">
+
+         <div className="w-full mb-2">
+         
+
+            <div className="flex justify-center">
+               <input type='text' placeholder="NAME OF UNIVERSITY"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={diplomauni}
+                  onChange={e => updateField({diplomauni:e.target.value})} />
+            </div>
+         </div>
+
+
+         
+         <div className="w-full mb-2">
+            <div className="flex justify-center">
+               <input type='text' placeholder="QUALIFICATION"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={diplomaqualification}
+                  onChange={e => updateField({diplomaqualification:e.target.value})} />
+            </div>
+         </div>
+
+
+         
+         <div className="w-full mb-2">
+            <div className="flex justify-center">
+               <input type='text' placeholder="DURATION"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={diplomaduration}
+                  onChange={e => updateField({diplomaduration:e.target.value})} />
+            </div>
+         </div>
+
+
+         
+         <div className="w-full mb-2">
+            <div className="flex justify-center">
+               <input type='text' placeholder="LEVEL"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={diplomalevel}
+                  onChange={e => updateField({diplomalevel:e.target.value})} />
+            </div>
+         </div>
+      </div>
+      
+   </div>
+
+
+    </div>
+    
 
     <br/>
-    <h1>TETIARY QUALIFICATIONS</h1>
-
-    <label>University/ Awarding Body</label>
-    <input className='rounded-md border border-none outline-none' autoFocus required type="text" value={tetiaryuni}
-    onChange={e => updateField({tetiaryuni:e.target.value})}/>
-    <label>Qualification Obtained</label>
-    <input className='rounded-md border border-none outline-none' autoFocus required type="text" value={tetiaryqualification}
-    onChange={e => updateField({tetiaryqualification:e.target.value})}/>
-    <label>Duration</label>
-    <input className='rounded-md border border-none outline-none' autoFocus required type="date" value={tetiaryduration}
-    onChange={e => updateField({tetiaryduration:e.target.value})}/>
-    <label>CLASS/LEVEL</label>
-    <input className='rounded-md border border-none outline-none' autoFocus required type="date" value={tetiarylevel}
-    onChange={e => updateField({tetiarylevel:e.target.value})}/>
     
+
+    <div className='text-lora lg:p-8 bg-gradient-to-r from-rose-100 to-teal-100 object-contain overflow-hidden'>
+
+    <div className='text-center'><h1 className='font-bold'>TETIARY QUALIFICATIONS</h1></div>
    
 
+    <div className="p-3" >
+      <div className="px-12 pb-10">
 
-   
-    </FormWrapper>
+         <div className="w-full mb-2">
+         
+
+            <div className="flex justify-center">
+               <input type='text' placeholder="TETIARY UNIVERSITY"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={tetiaryuni}
+                  onChange={e => updateField({tetiaryuni:e.target.value})} />
+            </div>
+         </div>
+
+
+         
+         <div className="w-full mb-2">
+            <div className="flex justify-center">
+               <input type='text' placeholder="QUALIFICATION"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={tetiaryqualification}
+                  onChange={e => updateField({tetiaryqualification:e.target.value})} />
+            </div>
+         </div>
+
+
+         
+         <div className="w-full mb-2">
+            <div className="flex justify-center">
+               <input type='text' placeholder="DURATION"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={tetiaryduration}
+                  onChange={e => updateField({tetiaryduration:e.target.value})} />
+            </div>
+         </div>
+
+
+         
+         <div className="w-full mb-2">
+            <div className="flex justify-center">
+               <input type='text' placeholder="LEVEL"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={tetiarylevel}
+                  onChange={e => updateField({tetiarylevel:e.target.value})} />
+            </div>
+         </div>
+
+
+         
+         
+
+         
+        
+
+      </div>
+      
+   </div>
+
+
     </div>
+    </div>
+   
+
+
+   
+    
   )
 }
 

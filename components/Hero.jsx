@@ -157,30 +157,30 @@ const Hero = () => {
     </div>
       
 
-    <div className='m-10 '>
+    <div className='lg:m-10 '>
     <div className='w-full p-2 text-center'>
     <h1 className="text-[40px] p-2">Top Companies</h1>
     <p className="text-[20px] p-2">You are Special to us</p>
     </div>
 
-    <div className='grid grid-cols-3 gap-2 bg-sky-800 p-4 m-4  '>
+    <div className='grid grid-cols-1 lg:grid-cols-3 gap-2 bg-sky-800 p-4 m-4  '>
     <div className='col-span-1 grid place-content-center grid-cols-12 lg:mx-20 lg:gap-5'>
     <div className='col-span-3 rounded-full w-[2em] h-[2em] grid place-content-center bg-gray-400'> <FaUsers size={20}/> </div>
-    <div className='col-span-9'><h1>Total Jobs</h1> <h1 className='text-[30px]'>400</h1></div>
+    <div className='col-span-9'><h1>Total Jobs</h1> <h1 className='lg:text-[30px]'>400</h1></div>
     
 
     
     </div>
     <div className='col-span-1 grid place-content-center grid-cols-12 lg:mx-20 lg:gap-5'>
     <div className='col-span-3 rounded-full w-[2em] h-[2em] grid place-content-center bg-gray-400'> <FaUsers size={20}/> </div>
-    <div className='col-span-9'><h1>Total Jobs</h1> <h1 className='text-[30px]'>400</h1></div>
+    <div className='col-span-9'><h1>Total Jobs</h1> <h1 className='lg:text-[30px]'>400</h1></div>
     
 
     
     </div>
     <div className='col-span-1 grid place-content-center grid-cols-12 lg:mx-20 lg:gap-5'>
     <div className='col-span-3 rounded-full w-[2em] h-[2em] grid place-content-center bg-gray-400'> <FaUsers size={20}/> </div>
-    <div className='col-span-9'><h1>Total Jobs</h1> <h1 className='text-[30px]'>400</h1></div>
+    <div className='col-span-9'><h1>Total Jobs</h1> <h1 className='lg:text-[30px]'>400</h1></div>
     
 
     
@@ -193,7 +193,7 @@ const Hero = () => {
     <div className='col-span-1 text-center grid place-content-center bg-white shadow-lg p-3 lg:p-20'>
     <div className='flex justify-center'>    <div className='rounded-full h-20 w-20 bg-gray-500 grid place-content-center'><FaNapster size={40} color='black'/></div>
     </div>
-    <div className='flex justify-center'><h1 className='text-[20px] font-extrabold w-[70%]'>We bring the world of options now it is your turn to choose</h1>
+    <div className='flex justify-center'><h1 className='text-[20px] font-extrabold lg:w-[70%]'>We bring the world of options now it is your turn to choose</h1>
     </div>
     <div><p>A society frienly job portal</p>
     </div>
@@ -204,7 +204,7 @@ const Hero = () => {
     <div className='col-span-1 text-center grid place-content-center bg-white shadow-lg p-3 lg:p-20'>
     <div className='flex justify-center'>    <div className='rounded-full h-20 w-20 bg-gray-500 grid place-content-center'><FaNapster size={40} color='black'/></div>
     </div>
-    <div className='flex justify-center'><h1 className='text-[20px] font-extrabold w-[70%]'>We bring the world of options now it is your turn to choose</h1>
+    <div className='flex justify-center'><h1 className='text-[20px] font-extrabold lg:w-[70%]'>We bring the world of options now it is your turn to choose</h1>
     </div>
     <div><p>A society frienly job portal</p>
     </div>
@@ -218,7 +218,7 @@ const Hero = () => {
 
     <div className='bg-blue-600 p-5'>
     <h1 className='text-[30px] font-extrabold text-white'>Testimonials</h1>
-    <div className='grid grid-cols-1 gap-5  lg:grid-cols-3 text-center p-20'>
+    <div className='grid grid-cols-1 gap-5  lg:grid-cols-3 text-center p-2 lg:p-20'>
 
     <div className='col-span-1 bg-white rounded-md shadow-lg'>
     <div className='flex justify-center'>    <div className=' mt-[-20px] bg-gray-500 rounded-full w-20 h-20 grid place-content-center'><FaRegSmileBeam size={30}/></div>

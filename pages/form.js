@@ -127,7 +127,7 @@ function form (){
         position: "relative",
         backgroundColor: " white",
         border: "1px solid black",
-        padding: "2rem",
+        padding: "1rem",
         margin: "1rem",
         borderRadius: ".5rem",
         fontFamily: "Arial",

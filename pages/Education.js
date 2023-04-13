@@ -8,8 +8,8 @@ const Education = ({ primaryeducationyear, prevocationalyear, primaryeducationpa
     grade4, grade5, grade6, grade7, grade8, grade9, grade10, updateField, technicalqualification
 }) => {
   return (
-    <div className='text-lora p-8 bg-gradient-to-r from-rose-100 to-teal-100'>
-    <FormWrapper title="Education">
+    <div className='text-lora lg:p-8 bg-gradient-to-r from-rose-100 to-teal-100 object-contain overflow-hidden'>
+
     <div className='grid grid-cols-1 lg:grid-cols-12 gap-10'>
     <div className='col-span-6'>
     <div><h1>CPE</h1></div>
@@ -49,9 +49,7 @@ const Education = ({ primaryeducationyear, prevocationalyear, primaryeducationpa
     </div>
     </div>
     </div>
-    </FormWrapper>
 
-    <FormWrapper>
     <div className='text-center'><h1>Secondary Education</h1></div>   
     <div className='flex'>
     <label>form 1</label>
@@ -63,161 +61,310 @@ const Education = ({ primaryeducationyear, prevocationalyear, primaryeducationpa
       <label>form 4</label>
       <input className='rounded-md border border-none outline-none' type='checkbox' value={formfour}  onChange={e => updateField({formfour:e.target.value})} />
     </div> 
-    </FormWrapper>
+
+
+
+
+    <div className="p-3" >
+      <div className="px-12 pb-10">
+
+     
+         <div className="w-full mb-2 grid grid-cols-1 lg:grid-cols-2 gap-10">
+         
+
+            <div className="col-span-1 grid grid-cols-12 justify-center">
+              <div className='col-span-9'>
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+                  
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+
+              
+              </div> 
+
+              <div className='col-span-3'>
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+
+              </div>
+             
+            </div>
+
+
+
+
+
+            <div className="col-span-1 grid grid-cols-12 justify-center">
+              <div className='col-span-9'>
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+                  
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+              <input type='text' placeholder="Subject 1"
+                  className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+                  autoFocus required value={subject1}
+                  onChange={e => updateField({subject1:e.target.value})} />
+
+
+
+              
+              </div> 
+
+              <div className='col-span-3'>
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+              <input type='text' placeholder="Grade 1"
+              className="px-8  w-full border rounded py-2 text-gray-700 focus:outline-none items-center"
+              autoFocus required value={grade1}
+              onChange={e => updateField({grade1:e.target.value})} />
+
+
+              </div>
+             
+            </div>
+
+
+
+         </div>
+
+
+
+         
+
+
+
+
+         
+         </div>
+      
+   </div>
 
     
-    <div className='grid grid-cols-1 lg:grid-cols-2'>
-    <div className='w-full col-span-1 '>
-    <div className='  '>
-        {/* subject */}
-<h1>Subjects</h1>
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    <div>
-    <label>Grade</label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>    </div>
-    </div>
-    
-
-
-    </div>
-   
-  </div>
-
-    {/**s ubjects 2  */}
-    <div className=' w-full col-span-1 '>
-    <div className='  '>
-    <div className='flex gap-10 p-3'>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[90%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>   </div>
-    <div>
-    <label></label>
-    <input  className='rounded-md border border-none outline-none w-[30%]' autoFocus required type="text" value={technicalqualification}
-    onChange={e => updateField({technicalqualification:e.target.value})}/>     </div>
-    
-    </div>
-    </div>
-   
-  </div>
-
-
-
-
-  </div>
     
 
   
